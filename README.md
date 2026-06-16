@@ -23,15 +23,22 @@ Everything runs in the browser. Packages come from Pyodide's WebAssembly wheels:
 The audience just opens the link and runs the cells top to bottom. The first run
 downloads the wheels into the browser cache (a few seconds), then it's instant.
 
-## ⚠️ One caveat — the PyCaret section (Section 7)
+## ⚠️ One caveat — the PyCaret section (Section 7, Optional · Advanced)
 
 PyCaret depends on compiled native libraries (`lightgbm`, `xgboost`, `catboost`,
 `numba`) that have **no WebAssembly build**, so they cannot run in the browser.
 
 - It has been **removed from the imports cell** so the rest of the notebook runs cleanly.
-- The PyCaret demo cells are **left in place as readable teaching content** — but if a
-  visitor clicks *Run* on them, they will error. That section is illustrative only here;
-  run it in a local/Colab Python environment for live results.
+- Section 7 is framed as **Optional · Advanced**: the PyCaret code is **commented
+  out** (so *Run All Cells* never errors) and paired with its **pre-computed output**
+  in a markdown cell, so participants can follow the concept without running it.
+- To run it live: download the notebook, `pip install pycaret`, uncomment, and run
+  locally or in Colab.
+
+## Reader & maintainer guides
+
+- **[usage_instructions.md](usage_instructions.md)** — for participants: how to open and run the live notebook.
+- **[setup_instructions.md](setup_instructions.md)** — for maintainers: how to publish any notebook to GitHub Pages this way.
 
 ## Repository layout
 
