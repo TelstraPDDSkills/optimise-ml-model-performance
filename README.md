@@ -1,3 +1,6 @@
+Prepared by Sam and Meg
+------------------------
+
 # Training ML Models — Optimise Performance (JupyterLite demo)
 
 An interactive, **zero-install** version of the *Training ML Models – How to Optimise
@@ -7,9 +10,9 @@ Performance* notebook. It runs entirely in the visitor's browser via
 
 ## ▶️ Live site
 
-- Lab interface: **https://omarkhan00.github.io/demo-optimize-ml-model/**
+- Lab interface: **https://telstrapddskills.github.io/optimise-ml-model-performance/**
 - Open the notebook directly:
-  **https://omarkhan00.github.io/demo-optimize-ml-model/lab/index.html?path=Training_ML_Models_Optimise_Performance.ipynb**
+  **https://telstrapddskills.github.io/optimise-ml-model-performance/lab/index.html?path=Training_ML_Models_Optimise_Performance.ipynb**
 
 ## How the packages work
 
