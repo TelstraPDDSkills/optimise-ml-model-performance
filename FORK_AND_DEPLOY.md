@@ -12,7 +12,7 @@ everything is already configured.
 4. Back in **Actions → "Deploy JupyterLite to GitHub Pages" → Run workflow**
    (branch `main`). Wait ~30s for the green check.
 5. Your live site:
-   **`https://<your-username>.github.io/demo-optimize-ml-model/`**
+   **`https://<your-account-or-org>.github.io/optimise-ml-model-performance/`**
 
 > ⚠️ Do step 3 **before** step 4 — otherwise the deploy job fails with
 > `404 ... Ensure GitHub Pages has been enabled`. If that happens, enable Pages

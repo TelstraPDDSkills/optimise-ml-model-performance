@@ -7,7 +7,7 @@ Python or any packages.
 
 1. **Open the link** in any modern browser (Chrome, Edge, Firefox, Safari):
 
-   <https://omarkhan00.github.io/demo-optimize-ml-model/lab/index.html?path=Training_ML_Models_Optimise_Performance.ipynb>
+   <https://telstrapddskills.github.io/optimise-ml-model-performance/lab/index.html?path=Training_ML_Models_Optimise_Performance.ipynb>
 
 2. **Wait a few seconds** for the page to load. It is starting Python inside your
    browser — this is normal.
